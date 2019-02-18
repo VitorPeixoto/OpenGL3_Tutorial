@@ -1,0 +1,5 @@
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/peixoto/Documentos/OpenGL3_Tutorial
+-- GLM_INCLUDE_DIR = /usr/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug

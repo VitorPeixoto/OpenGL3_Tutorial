@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.cpp
+stdio.h
+-
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+stdlib.h
+-
+string.h
+-
+GL/glew.h
+-
+shader.hpp
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp
+
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp
+
+/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp
+stdio.h
+-
+stdlib.h
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+glm/glm.hpp
+-
+common/shader.hpp
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp
+
