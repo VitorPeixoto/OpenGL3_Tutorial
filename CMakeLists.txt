@@ -42,6 +42,11 @@ if(NOT GLM_FOUND)
     message(Error "GLM not found")
 endif(NOT GLM_FOUND)
 
-add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial02.cpp)
+#add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial01.cpp)
+#add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial02.cpp)
+#add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial03.cpp)
+#add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial04.cpp)
+#add_executable(OpenGL3_Tutorial common/shader.cpp common/shader.hpp tutorial04_1.cpp)
+add_executable(OpenGL3_Tutorial common/texture.cpp common/texture.hpp common/shader.cpp common/shader.hpp tutorial05.cpp tutorial05.cpp)
 
 target_link_libraries (OpenGL3_Tutorial ${OPENGL_LIBRARIES} ${GLFW_LIBRARIES} ${GLEW_LIBRARIES} ${GLM_LIBRARIES} ${SOIL_LIBRARIES})

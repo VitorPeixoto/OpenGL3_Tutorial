@@ -318,10 +318,10 @@ X11_Xau_INCLUDE_PATH:PATH=/usr/include
 X11_Xau_LIB:FILEPATH=/usr/lib64/libXau.so
 
 //Path to a file.
-X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
+X11_Xcomposite_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
+X11_Xcomposite_LIB:FILEPATH=/usr/lib64/libXcomposite.so
 
 //Path to a file.
 X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
@@ -351,10 +351,10 @@ X11_Xfixes_INCLUDE_PATH:PATH=/usr/include
 X11_Xfixes_LIB:FILEPATH=/usr/lib64/libXfixes.so
 
 //Path to a file.
-X11_Xft_INCLUDE_PATH:PATH=X11_Xft_INCLUDE_PATH-NOTFOUND
+X11_Xft_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xft_LIB:FILEPATH=X11_Xft_LIB-NOTFOUND
+X11_Xft_LIB:FILEPATH=/usr/lib64/libXft.so
 
 //Path to a file.
 X11_Xi_INCLUDE_PATH:PATH=/usr/include
@@ -624,7 +624,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding GLEW
 FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[/usr/include][/usr/lib64/libGLEW.so][v()]
 //Details about finding GLFW
-FIND_PACKAGE_MESSAGE_DETAILS_GLFW:INTERNAL=[/usr/local/include][/lib64/libglfw.so;/usr/lib64/libXrandr.so;/usr/lib64/libXxf86vm.so;/usr/lib64/libXcursor.so;/usr/lib64/libXinerama.so;/usr/lib64/libXi.so;/usr/lib64/libSM.so;/usr/lib64/libICE.so;/usr/lib64/libX11.so;/usr/lib64/libXext.so;-lpthread;-lrt;-ldl;;;][v3.2.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_GLFW:INTERNAL=[/usr/local/include][/lib64/libglfw.so;/usr/lib64/libXrandr.so;/usr/lib64/libXxf86vm.so;/usr/lib64/libXcursor.so;/usr/lib64/libXinerama.so;/usr/lib64/libXi.so;/usr/lib64/libSM.so;/usr/lib64/libICE.so;/usr/lib64/libX11.so;/usr/lib64/libXext.so;-lpthread;-lrt;-ldl;;;][v()]
 //Details about finding GLM
 FIND_PACKAGE_MESSAGE_DETAILS_GLM:INTERNAL=[/usr/include][v()]
 //Details about finding GLUT
@@ -645,6 +645,8 @@ GLEW_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 GLFW_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLFW_glfw_LIBRARY
 GLFW_glfw_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLM_INCLUDE_DIR
+GLM_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLUT_INCLUDE_DIR
 GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLUT_Xi_LIBRARY

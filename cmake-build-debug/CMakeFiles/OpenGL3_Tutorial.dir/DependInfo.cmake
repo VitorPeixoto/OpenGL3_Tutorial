@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.cpp" "/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o"
-  "/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp" "/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o"
+  "/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp" "/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o"
+  "/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp" "/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

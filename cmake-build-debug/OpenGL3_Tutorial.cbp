@@ -88,7 +88,13 @@
 		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp">
 			<Option target="OpenGL3_Tutorial"/>
 		</Unit>
-		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp">
+		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp">
+			<Option target="OpenGL3_Tutorial"/>
+		</Unit>
+		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.hpp">
+			<Option target="OpenGL3_Tutorial"/>
+		</Unit>
+		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp">
 			<Option target="OpenGL3_Tutorial"/>
 		</Unit>
 		<Unit filename="/home/peixoto/Documentos/OpenGL3_Tutorial/CMakeLists.txt">

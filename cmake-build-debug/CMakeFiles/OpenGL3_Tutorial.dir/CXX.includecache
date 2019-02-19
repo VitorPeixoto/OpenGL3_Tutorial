@@ -19,6 +19,8 @@ fstream
 -
 algorithm
 -
+sstream
+-
 stdlib.h
 -
 string.h
@@ -30,7 +32,21 @@ shader.hpp
 
 /home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp
 
-/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.hpp
+
+/home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp
 stdio.h
 -
 stdlib.h
@@ -41,6 +57,10 @@ GLFW/glfw3.h
 -
 glm/glm.hpp
 -
+glm/gtc/matrix_transform.hpp
+-
+common/texture.hpp
+/home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.hpp
 common/shader.hpp
 /home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.hpp
 

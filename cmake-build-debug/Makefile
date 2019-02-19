@@ -150,32 +150,59 @@ common/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.s
 .PHONY : common/shader.cpp.s
 
-tutorial02.o: tutorial02.cpp.o
+common/texture.o: common/texture.cpp.o
 
-.PHONY : tutorial02.o
+.PHONY : common/texture.o
 
 # target to build an object file
-tutorial02.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o
-.PHONY : tutorial02.cpp.o
+common/texture.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o
+.PHONY : common/texture.cpp.o
 
-tutorial02.i: tutorial02.cpp.i
+common/texture.i: common/texture.cpp.i
 
-.PHONY : tutorial02.i
+.PHONY : common/texture.i
 
 # target to preprocess a source file
-tutorial02.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.i
-.PHONY : tutorial02.cpp.i
+common/texture.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.i
+.PHONY : common/texture.cpp.i
 
-tutorial02.s: tutorial02.cpp.s
+common/texture.s: common/texture.cpp.s
 
-.PHONY : tutorial02.s
+.PHONY : common/texture.s
 
 # target to generate assembly for a file
-tutorial02.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.s
-.PHONY : tutorial02.cpp.s
+common/texture.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.s
+.PHONY : common/texture.cpp.s
+
+tutorial05.o: tutorial05.cpp.o
+
+.PHONY : tutorial05.o
+
+# target to build an object file
+tutorial05.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o
+.PHONY : tutorial05.cpp.o
+
+tutorial05.i: tutorial05.cpp.i
+
+.PHONY : tutorial05.i
+
+# target to preprocess a source file
+tutorial05.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.i
+.PHONY : tutorial05.cpp.i
+
+tutorial05.s: tutorial05.cpp.s
+
+.PHONY : tutorial05.s
+
+# target to generate assembly for a file
+tutorial05.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.s
+.PHONY : tutorial05.cpp.s
 
 # Help Target
 help:
@@ -189,9 +216,12 @@ help:
 	@echo "... common/shader.o"
 	@echo "... common/shader.i"
 	@echo "... common/shader.s"
-	@echo "... tutorial02.o"
-	@echo "... tutorial02.i"
-	@echo "... tutorial02.s"
+	@echo "... common/texture.o"
+	@echo "... common/texture.i"
+	@echo "... common/texture.s"
+	@echo "... tutorial05.o"
+	@echo "... tutorial05.i"
+	@echo "... tutorial05.s"
 .PHONY : help
 
 

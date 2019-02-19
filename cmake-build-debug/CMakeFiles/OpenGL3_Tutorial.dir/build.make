@@ -57,9 +57,33 @@ include CMakeFiles/OpenGL3_Tutorial.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL3_Tutorial.dir/flags.make
 
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o: CMakeFiles/OpenGL3_Tutorial.dir/flags.make
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o: ../common/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o -c /home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp
+
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp > CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.i
+
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peixoto/Documentos/OpenGL3_Tutorial/common/texture.cpp -o CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.s
+
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.requires
+
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.provides: CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.provides
+
+CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.provides.build: CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o
+
+
 CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o: CMakeFiles/OpenGL3_Tutorial.dir/flags.make
 CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o: ../common/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o -c /home/peixoto/Documentos/OpenGL3_Tutorial/common/shader.cpp
 
 CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.i: cmake_force
@@ -81,40 +105,42 @@ CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o.provides: CMakeFiles/OpenGL3
 CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o.provides.build: CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o
 
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o: CMakeFiles/OpenGL3_Tutorial.dir/flags.make
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o: ../tutorial02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o -c /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o: CMakeFiles/OpenGL3_Tutorial.dir/flags.make
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o: ../tutorial05.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o -c /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp > CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.i
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp > CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.i
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial02.cpp -o CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.s
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peixoto/Documentos/OpenGL3_Tutorial/tutorial05.cpp -o CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.s
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.requires:
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.requires:
 
-.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.requires
+.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.requires
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.provides: CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.requires
-	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.provides.build
-.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.provides
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.provides: CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL3_Tutorial.dir/build.make CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.provides
 
-CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.provides.build: CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o
+CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.provides.build: CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o
 
 
 # Object files for target OpenGL3_Tutorial
 OpenGL3_Tutorial_OBJECTS = \
+"CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o" \
 "CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o" \
-"CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o"
+"CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o"
 
 # External object files for target OpenGL3_Tutorial
 OpenGL3_Tutorial_EXTERNAL_OBJECTS =
 
+OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o
 OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o
-OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o
+OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o
 OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/build.make
 OpenGL3_Tutorial: /usr/lib64/libGL.so
 OpenGL3_Tutorial: /usr/lib64/libGLU.so
@@ -131,7 +157,7 @@ OpenGL3_Tutorial: /usr/lib64/libXext.so
 OpenGL3_Tutorial: /usr/lib64/libGLEW.so
 OpenGL3_Tutorial: /usr/lib64/libSOIL.so
 OpenGL3_Tutorial: CMakeFiles/OpenGL3_Tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGL3_Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peixoto/Documentos/OpenGL3_Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenGL3_Tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL3_Tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,8 +165,9 @@ CMakeFiles/OpenGL3_Tutorial.dir/build: OpenGL3_Tutorial
 
 .PHONY : CMakeFiles/OpenGL3_Tutorial.dir/build
 
+CMakeFiles/OpenGL3_Tutorial.dir/requires: CMakeFiles/OpenGL3_Tutorial.dir/common/texture.cpp.o.requires
 CMakeFiles/OpenGL3_Tutorial.dir/requires: CMakeFiles/OpenGL3_Tutorial.dir/common/shader.cpp.o.requires
-CMakeFiles/OpenGL3_Tutorial.dir/requires: CMakeFiles/OpenGL3_Tutorial.dir/tutorial02.cpp.o.requires
+CMakeFiles/OpenGL3_Tutorial.dir/requires: CMakeFiles/OpenGL3_Tutorial.dir/tutorial05.cpp.o.requires
 
 .PHONY : CMakeFiles/OpenGL3_Tutorial.dir/requires
 
